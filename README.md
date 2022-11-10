@@ -14,10 +14,15 @@ Proof-of-concept (POC) of using Regen network to create and distribute a marine 
 
 - Confirm creation by looking at http://redwood.regen.network:1317/regen/ecocredit/v1/credit-types
 
-3. Create credit class
+3. Set up a secure key
+4. Use the faucet to receive testnet tokens
+5. Configure Regen to communicate with redwood testnet
+6. Create credit class
 
 - Run create_credit_class.sh
 
-4. Issue Credit Batch
+7. Create Cocos Island Test Project
+
+8. Issue Credit Batch
 
 
