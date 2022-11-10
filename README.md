@@ -10,7 +10,7 @@ Proof-of-concept (POC) of using Regen network to create and distribute a marine 
 
 - Ask for approval from Ryan Christoffersen or request approval using terminal command: regen tx gov submit-proposal credit-type-proposal [path_to_file.json] [flags]
 
-- For information on how to submit a credit type proposal visit https://docs.regen.network/commands/regen_tx_gov_submit-proposal_credit-type-proposal.html
+- For information on how to submit a credit type proposal: https://docs.regen.network/commands/regen_tx_gov_submit-proposal_credit-type-proposal.html
 
 - Confirm creation by looking at http://redwood.regen.network:1317/regen/ecocredit/v1/credit-types
 
@@ -18,4 +18,6 @@ Proof-of-concept (POC) of using Regen network to create and distribute a marine 
 
 - Run create_credit_class.sh
 
-4. ...
+4. Issue Credit Batch
+
+
