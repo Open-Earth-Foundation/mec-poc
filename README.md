@@ -17,10 +17,10 @@ Proof-of-concept (POC) of using Regen network to create and distribute a marine 
 3. Create a Regen account and up a secure key: `regen keys add <name>`
 
   - name: <name>
-    type: local
-    address: <address>
-    pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"AwLe6nj2gylMIBg9sQTjvQA6+DznGGX1kv2xEQ81O8OP"}'
-    mnemonic: ""
+  - type: local
+  - address: <address>
+  - pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"AwLe6nj2gylMIBg9sQTjvQA6+DznGGX1kv2xEQ81O8OP"}'
+  - mnemonic: ""
 
 4. Use the faucet to receive testnet tokens: `curl http://redwood-sentry.vitwit.com:8000/faucet/<account_address>`
   
