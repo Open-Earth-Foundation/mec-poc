@@ -14,7 +14,7 @@ Proof-of-concept (POC) of using Regen network to create and distribute a marine 
 
   - Confirm creation by looking at http://redwood.regen.network:1317/regen/ecocredit/v1/credit-types
 
-3. Create a Regen account and up a secure key: `regen keys add <name>`
+3. Create a Regen account and a secure key: `regen keys add <name>`
 
   - name: `<name>`
   - type: local
