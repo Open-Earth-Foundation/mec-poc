@@ -30,9 +30,9 @@ Proof-of-concept (POC) of using Regen network to create and distribute a marine 
   
   - This command will create a credit class with your address as the admin and an issuer
   
-  - The metadata is typically a content hash of the data you want associated with the credit class (i.e. methodology info). It can be updated later       for credit classes and projects, but not for batches.
+  - The metadata is typically a content hash of the data you want associated with the credit class (i.e. methodology info). It can be updated later       for credit classes and projects but not for batches.
 
-  - Alternatively, you can create a json file with the data you want associated with the credit class (i.e. methodology info), then create a content hash       of the json, and anchor the data on Regen using the data module. Anchoring the data returns a Regen IRI which is often stored in the metadata field.
+  - Alternatively, you can create a json file with the data you want associated with the credit class (i.e. methodology info), then create a content hash       of the json, and anchor the data on Regen using the data module. Anchoring the data returns a Regen IRI which can be stored in the metadata field.
 
 7. Create Cocos Island Test Project: `regen tx ecocredit create-project MEC01 CR "metadata" --from <address>`
   
