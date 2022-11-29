@@ -41,7 +41,7 @@ Proof-of-concept (POC) of using Regen network to create and distribute a marine 
 9. Create a batch.json file with your project id, issuer address, recipient address, and the number of tradable/retired credits being issued
   - For an example json file: https://docs.regen.network/commands/regen_tx_ecocredit_create-batch.html
 
-10. Issue Credit Batch: `regen tx ecocredit create-batch batch.json --from "regen1thucp0ty0knyhe8z8sh4u47vk5ytxzzna9ky5d" --fees 500uregen`
+10. Issue Credit Batch: `regen tx ecocredit create-batch batch.json --from "<address>" --fees 500uregen`
 
 
 
